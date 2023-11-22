@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms & Input Tags_checked_label_for_select_option_selected</title>
+</head>
+<body>
+	<h2>Form Submission:</h2>
+	<form action="6.Forms & Input Tags.php">
+		<!--<form> can also be written for initial learning stage-->
+		<label for="date">Date of Submission:</label>
+		<div>
+			<input type="Date" name="myDate" id="date">
+		</div>
+		<br>
+		<label for="name">Name:</label>
+		<div>
+			<input type="text" name="myName" id="name">
+		</div>
+		<br>
+		<label for="username">Username:</label>
+		<div>
+			<input type="username" name="myName" id="username">
+		</div>
+		<br>
+		<label for="password">Password:</label>
+		<div>
+			<input type="password" name="myName" id="password">
+		</div>
+		<br>
+		<label for="role">Job Role:</label>
+		<div>
+			<input type="text" name="myRole" id="role">
+		</div>
+		<br>
+		<label for="mailID">Email:</label>
+		<div>
+			<input type="email" name="myEmail" id="mailID">
+		</div>
+		<br>
+		<label for="bonus">Bonus:</label>
+		<div>
+			<input type="number" name="myBonus" id="bonus">
+		</div>
+		<br>
+		<div>
+			Are you eligible?(using checkbox_checked_by_defaulf): Yes<input type="checkbox" name="myEligibility"
+				checked> No<input type="checkbox" name="myEligibility" checked> Yono<input type="checkbox"
+				name="myEligibility" checked>
+		</div>
+		<br>
+		<div>
+			Are you eligible?(using radio button): Yes<input type="radio" name="myEligibility"> No<input type="radio"
+				name="myEligibility"> Yono<input type="radio" name="myEligibility">
+		</div>
+		<br>
+		<label for="desc">Write about yourself (Min. 3 characters, Max. 100 characters):</label>
+		<div>
+			<textarea name="description" minlength="3" maxlength="100" cols="100" rows="10" id="desc"> </textarea>
+		</div>
+		<br>
+		<div>
+			<label for="car">Select car:</label>
+			<select name="myCar" id="car">
+				<option value="choose" selected>Choose option</option>
+				<option value="ind">Indica</option>
+				<option value="swf">Swift</option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<input type="submit" value="Submit Now"> <input type="reset" value="Reset Now">
+		</div>
+	</form>
+</body>
+</html>
+
+<!-- Notes: -->
